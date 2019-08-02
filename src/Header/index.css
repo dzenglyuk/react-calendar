@@ -1,0 +1,16 @@
+.Header {
+    padding: 2.5%;
+}
+
+.header-name {
+    font-family: 'Calibri';
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.Header .header-name .menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
