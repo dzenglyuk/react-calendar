@@ -1,0 +1,18 @@
+.CalendarBody {
+    height: 90%;
+    padding: 30px 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+}
+
+.grid-container > div {
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    
+  }

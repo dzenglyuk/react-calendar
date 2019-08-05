@@ -1,5 +1,8 @@
 .Header {
     padding: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-name {
@@ -8,9 +11,20 @@
     font-weight: bold;
 }
 
-.Header .header-name .menu div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+.Header .menu {
+    position: relative;
+    float: right;
+}
+
+.Header .menu div {
+    border: 1px solid red;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 500px;
+}
+
+.Header .menu img {
+    border-radius: 50%;
+    cursor: pointer;
 }

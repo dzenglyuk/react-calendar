@@ -1,0 +1,12 @@
+.CalendarHeader {
+    /* background-color: lightsalmon; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CalendarHeader span {
+    margin: 0 25px;
+    font-size: 1.2rem;
+}
