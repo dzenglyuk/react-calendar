@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./index.css";
+import TaskHeader from "../TaskHeader";
+import Tasks from "../Tasks";
 
 
 export default class TaskManager extends Component {
@@ -9,7 +11,10 @@ export default class TaskManager extends Component {
 
   render() {
     return (
-        <div className="TaskManager"> Task manager</div>
+        <div className="TaskManager">
+          <TaskHeader/>
+          <Tasks/>
+        </div>
     );
   }
 }

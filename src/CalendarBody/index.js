@@ -13,8 +13,17 @@ export default class CalendarBody extends Component {
     
     dayNames.map(day => days = [...days, <div> {day} </div>]);
 
+    let counter = 1;
     for (let i = 1; i < 36; i++) {
-      days = [...days, <div> {i} </div>];
+      if (counter === 6 || counter === 7) {
+        days = [...days, <div className="weekend"> {i} </div>];
+        if (counter === 7) {
+          counter = 0;
+        }
+      } else {
+        days = [...days, <div> {i} </div>];
+      }
+      counter++;
     }
     return (
         <div className="CalendarBody">
