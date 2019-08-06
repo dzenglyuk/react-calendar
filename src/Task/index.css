@@ -1,0 +1,39 @@
+.Task {
+    padding: 15px;
+    color: white;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Task:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Task .task-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Task .task-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Task .task-body span:first-child {
+    font-weight: bold;
+}
+
+.green {
+    background-color: #1abc9c;
+}
+
+.red {
+    background-color: #f39c12;
+}
+
+.blue {
+    background-color: #3498db;
+}

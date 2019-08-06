@@ -1,0 +1,36 @@
+.TaskCreator {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plus-button {
+    /* background-image: linear-gradient(#dce35b, #45b649); */
+    background-image: linear-gradient(#ee0979, #ff6a00);    
+	font-size: 16px;
+	height: 3em;
+	width: 3em;
+	border-radius: 999px;
+    position: relative;
+    cursor: pointer;
+}
+
+.plus-button:after,
+.plus-button:before {
+    content: "";
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+	
+.plus-button:before {
+    height: 1.5em;
+    width: 0.2em;
+}
+
+.plus-button:after {
+    height: 0.2em;
+    width: 1.5em;
+}

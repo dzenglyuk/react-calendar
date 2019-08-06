@@ -1,5 +1,4 @@
 .TaskManager {
-    border: 1px solid gold;
     width: 40%;
-    /* display: flex; */
+    padding: 0 20px;
 }
