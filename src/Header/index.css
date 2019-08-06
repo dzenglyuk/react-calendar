@@ -1,5 +1,5 @@
 .Header {
-    padding: 2.5%;
+    padding: 1.5% 2.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,9 +14,12 @@
 .Header .menu {
     position: relative;
     float: right;
+    display: flex;
+    justify-content: space-around;
+    min-width: 15%;
 }
 
-.Header .menu div {
+.Header .menu .menu-content {
     border: 1px solid red;
     position: absolute;
     right: 0;

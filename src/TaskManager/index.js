@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./index.css";
 import TaskHeader from "../TaskHeader";
 import TaskList from "../TaskList";
-import TaskCreator from "../TaskCreator";
+// import TaskCreator from "../TaskCreator";
 
 
 export default class TaskManager extends Component {
@@ -36,7 +36,7 @@ export default class TaskManager extends Component {
         <div className="TaskManager">
           <TaskHeader/>
           <TaskList notifications={this.array}/>
-          <TaskCreator/>
+          {/* {window.innerHeight >= 600 ? <TaskCreator/> : null} */}
         </div>
     );
   }

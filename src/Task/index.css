@@ -3,11 +3,11 @@
     color: white;
     margin: 10px 0;
     border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .Task:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 5px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .Task .task-header {
@@ -36,4 +36,10 @@
 
 .blue {
     background-color: #3498db;
+}
+
+@media screen and (max-width: 900px) {
+    .Task .task-header {
+      flex-direction: column;
+    }
 }

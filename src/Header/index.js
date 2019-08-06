@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
+import TaskCreator from "../TaskCreator";
 
 
 export default class Header extends Component {
@@ -25,6 +26,7 @@ export default class Header extends Component {
         <div className="Header">
             <span className="header-name"> Event calendar </span>
             <div className="menu">
+                <TaskCreator/>
                 <img onClick={this.openMenu} src={require('./avatar50x50.png')} alt="Avatar"/>
                 {this.state.showMenu ? (
                 <div className="menu-content" ref={el => this.dropdownMenu = el}>

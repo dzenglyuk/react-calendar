@@ -1,6 +1,7 @@
 .TaskCreator {
     display: flex;
     justify-content: flex-end;
+    /* padding-top: 10px; */
 }
 
 .plus-button {

@@ -30,3 +30,15 @@
     font-weight: bold;
     border-bottom: 1.5px solid black;
 }
+
+@media screen and (max-width: 1200px) {
+    .TaskHeader ul {
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .TaskHeader ul {
+      width: 100%;
+    }
+}
